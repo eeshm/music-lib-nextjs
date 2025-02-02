@@ -14,8 +14,7 @@ interface Course{
         image: string 
 }
 export default function FeaturedCourses(){
-    const featuredCourses= courseData.courses
-     .filter((course:Course)=> course.isFeatured)
+    const featuredCourses= courseData.courses.filter((course:Course)=> course.isFeatured)
     return(
         <div className="py-12 bg-gray-900">
             <div>
@@ -27,9 +26,9 @@ export default function FeaturedCourses(){
                     from-neutral-50 to-neutral-400 sm:text-4xl">Learn With the Best</p></div>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 
-            lg:grid-cols-3 gap-8 justify-center">
+            lg:grid-cols-3 gap-8 justify-center mx-5 my-6">
                 {featuredCourses.map((course:Course)=>(
-                    <div key={course.id} className="flex justify-center mt-6" >
+                    <div key={course.id} className="flex justify-center " >
                         <BackgroundGradient className="flex flex-col rounded-[22px] bg-white
                          dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
                             <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
