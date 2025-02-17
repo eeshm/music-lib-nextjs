@@ -5,7 +5,7 @@ import { BackgroundGradient } from "./ui/background-gradient"
 
 interface Course{
         id: number,
-        title  : string,
+        title : string,
         slug: string, 
         description:string,
         price: number,

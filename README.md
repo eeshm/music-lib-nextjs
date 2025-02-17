@@ -1,7 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This Music Library is a visually appealing project built with Next.js and Aceternity UI, focusing on creating an elegant and smooth user experience. The project leverages Next.js for fast performance and Aceternity UI for a polished design. It provides an interactive interface for browsing and managing music efficiently.
+
+## Features
+1. Modern and sleek UI using Aceternity UI
+2. Fast and optimized performance with Next.js
+3. Smooth navigation and intuitive design
+4. Easy scalability for future enhancements
+
+## Tech Stack
++ Next.js – for server-side rendering and optimized performance
+- Aceternity UI – for a clean and aesthetic interface
+
 
 ## Getting Started
-
 First, run the development server:
 
 ```bash
@@ -29,8 +39,3 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
