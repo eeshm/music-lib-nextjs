@@ -13,7 +13,7 @@ This Music Library is a visually appealing project built with Next.js and Aceter
 
 ## Getting Started
 First, run the development server:
-
+git 
 ```bash
 npm run dev
 # or
